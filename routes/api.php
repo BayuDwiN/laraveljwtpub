@@ -22,7 +22,7 @@ Route::controller(TodoController::class)->group(function () {
     Route::put('todo/{id}', 'update');
     Route::delete('todo/{id}', 'destroy');
 }); 
-
+// pegawai
 Route::controller(PegawaiController::class)->group(function () {
     Route::get('pegawais', 'index');
     Route::post('pegawai', 'store');
